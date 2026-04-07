@@ -22,7 +22,7 @@ def classify_number(n):
       - "negative odd"    (negativo e impar)
       - "zero"            (el número es 0)
     """
-        if is_positive(n) and is_even(n):
+    if n > 0 and n % 2 == 0:
         return "positive even"
     elif n > 0 and n % 2 != 0:
         return "positive odd"
